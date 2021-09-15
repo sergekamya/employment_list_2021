@@ -15,7 +15,7 @@ describe('user visits the application', () => {
         cy.get("#employee-list")
           .children()
           .first()
-          .should("contain.text", "Thomas Bluth");
+          .should("contain.text", "George Bluth");
       });
 
 
